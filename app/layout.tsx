@@ -3,7 +3,7 @@ import { Nunito } from 'next/font/google';
 import QueryProvider from './utils/QueryProvider';
 import './globals.css';
 
-export const nunito = Nunito({ subsets: ['latin'] });
+const nunito = Nunito({ subsets: ['latin'] });
 
 export const metadata = {
 	title: 'Next App',
