@@ -4,6 +4,7 @@ const nextConfig = {
 		appDir: true
 	},
 	images: {
+		formats: ['image/webp'],
 		domains: ['frontend-test-assignment-api.abz.agency']
 	}
 };
