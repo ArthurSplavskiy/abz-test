@@ -1,0 +1,31 @@
+.hero {
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 650px;
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		inset: 0 0 0 0;
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	}
+
+	@media (max-width: 768px) {
+		height: 500px;
+		margin: 0 -16px;
+		padding: 32px;
+	}
+}
+
+.content {
+	position: relative;
+	max-width: 380px;
+	z-index: 2;
+}

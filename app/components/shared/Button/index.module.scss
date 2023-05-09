@@ -1,0 +1,27 @@
+.btn {
+	min-width: 100px;
+	padding: 4px 18px;
+	border-radius: 80px;
+	text-align: center;
+	background: var(--yellow);
+	transition: var(--transition);
+	color: var(--black-text);
+
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+
+	&:hover {
+		background: var(--yellow-hover);
+	}
+
+	&:active {
+		transform: scale(0.95);
+	}
+
+	&:disabled {
+		background: var(--grey);
+		color: var(--white-text);
+		pointer-events: none;
+	}
+}

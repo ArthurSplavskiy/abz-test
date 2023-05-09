@@ -1,0 +1,18 @@
+.form {
+	width: 100%;
+	max-width: 380px;
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+	gap: 50px;
+
+	button[type='submit'] {
+		justify-self: center;
+	}
+}
+
+.successImage {
+	@media (max-width: 480px) {
+		max-width: 288px;
+	}
+}

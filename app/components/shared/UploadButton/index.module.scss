@@ -1,0 +1,23 @@
+.btn {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 84px 1fr;
+
+	label {
+		border-radius: 4px 0px 0px 4px;
+	}
+
+	& > div {
+		pointer-events: none;
+		p {
+			position: absolute;
+			top: 100%;
+		}
+	}
+	& > div > div {
+		border-radius: 0px 4px 4px 0px;
+		fieldset {
+			border-left: none;
+		}
+	}
+}

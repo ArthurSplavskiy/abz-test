@@ -1,0 +1,37 @@
+{
+  "name": "abz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.12.3",
+    "@types/node": "20.1.0",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.2",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "formik": "^2.2.9",
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-input-mask": "^2.0.4",
+    "react-query": "^3.39.3",
+    "sass": "^1.62.1",
+    "typescript": "5.0.4",
+    "yup": "^1.1.1",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@types/react-input-mask": "^3.0.2"
+  }
+}
