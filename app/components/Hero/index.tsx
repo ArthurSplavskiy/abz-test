@@ -7,7 +7,7 @@ import classNames from 'classnames';
 
 export const Hero = () => {
 	return (
-		<div className={styles.hero} style={{ backgroundImage: 'url("/hero.jpeg")' }}>
+		<div className={styles.hero} style={{ backgroundImage: 'url("/hero.webp")' }}>
 			<div className={classNames(styles.content, 'stack')}>
 				<Text tag='h1' textAlign='center' color='white' marginBottom={21}>
 					Test assignment for front-end developer
